@@ -12,13 +12,16 @@ $headings-font-family:    $header-font;
 $headings-line-height:    1.1;
 
 // Semantic color scheme
-$brand-primary:   $red;
+$brand-primary:   $red-two !default;
 $brand-success:   $green;
 $brand-info:      $yellow;
-$brand-danger:    $red;
+$brand-danger:    $red_two;
 $brand-warning:   $orange;
 
 // Buttons / inputs radius
 $border-radius-base:  2px;
 $border-radius-large: 2px;
 $border-radius-small: 2px;
+
+$btn-primary-color: black;
+$btn-default-color: $red_two;
